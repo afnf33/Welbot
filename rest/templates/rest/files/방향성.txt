@@ -1,0 +1,60 @@
+서울시 공공서비스예약 정보
+- 진료.
+- 예약 및 예약확인.
+https://data.seoul.go.kr/dataList/OA-2271/A/1/datasetView.do
+
+
+평생교육기관
+- 평생교육기관 현황
+- 오프라인 계설강좌
+- 온라인 개설강좌
+
+
+
+문화행사정보
+- 자치구 코드.*
+
+https://data.seoul.go.kr/dataList/OA-151/S/1/datasetView.do
+- 문화공간 현황. 
+- 장르별 코드
+
+https://data.seoul.go.kr/dataList/OA-139/A/1/datasetView.do
+- 장르별 검색
+
+- 장르별 장소
+
+https://data.seoul.go.kr/dataList/OA-133/A/1/datasetView.do
+- 문화행사정보 장소명 검색
+
+https://data.seoul.go.kr/dataList/OA-134/A/1/datasetView.do
+- 문화행사 기간 검색
+
+https://data.seoul.go.kr/dataList/OA-149/A/1/datasetView.do
+- 문화위치정보 명칭 검색
+
+- 문화행사 정보
+- 문화장소 정보
+
+
+서울 두드림길 정보
+- 생태문화길, 서울둘레길, 근교산자락길
+
++
+
+노인교실
+- 서울특별시 노인교실 정보
+- 어르신 교육시설 현황 (x)
+- 구로구 노인종합복지관 교육대학
+- 강북구 노인교실 현황
+- 
+
+복지시설
+- 종로구 노인복지 시설현황 (재가활동 / 
+- 어르신 복지시설 현황 (노인종합복지관 / 소규모노인복지센터)
+- 강동구 어르신 복지시설 현황
+
+경로당
+- 서울특별시 경로당 정보
+- 강북구 경로당 현황
+
+
