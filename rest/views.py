@@ -10,10 +10,16 @@ from logging import DEBUG, getLogger
 from dialogflow_fulfillment import WebhookClient
 from django.views.decorators.csrf import csrf_exempt
 import json
+import datetime
+import random
 
 module_dir = os.path.dirname(__file__)
-LOG = getLogger(__name__)
-LOG.setLevel(DEBUG)
+query_result = None
+query_idx = 0
+idx = 0
+validated = False
+
+
 
 # Create your views here.
 class CityViewSet(viewsets.ModelViewSet):
@@ -97,7 +103,11 @@ class CultureEventViewSet(viewsets.ModelViewSet):
     permission_classes = [permissions.IsAuthenticated]
     
 
-def index(request):    
+def index(request):
+    
+    for data in Course.objects.all().values():
+        print(data)
+    
     return HttpResponse("index page!")
     
     
@@ -617,13 +627,31 @@ def culture_event_init(request):
     
     return HttpResponse('Culture_Event initialized!')
 
-def handler(agent):
-    ''' custom handler functions '''
+def handler(data):
+    ''' custom handler functions
+    if data.get_intent_displayName() == '(curture_all)request_lecture(genre) - custom':
+        response = culture_genre_handler(data)
+    elif data.get_intent_displayName() == '()decide_seniorcenter(senior_center)':
+        response = senior_center_handler(data)
+    '''    
+    if data['queryResult']['intent']['displayName'] == '()request_culture(genre)':
+        response = culture_genre_handler(data)
+    elif data['queryResult']['intent']['displayName'] == '()decide_seniorcenter(senior_center)':
+        response = senior_center_handler(data)
+    elif data['queryResult']['intent']['displayName'] == 'Terminal Intent()':
+        response = terminal_handler(data)
+    elif data['queryResult']['intent']['displayName'] == '(genre)select_culture_event(genre,culture_event) - custom':
+        response = select_culture_handler(data)
+    elif data['queryResult']['intent']['displayName'] == 'Default Welcome Intent':
+        response = welcome_handler(data)
+    elif data['queryResult']['intent']['displayName'] == '()request_trail(trail_request)':
+        response = trail_handler(data)
+    elif data['queryResult']['intent']['displayName'] == '()decide_welfarecenter(welfare_center)' :
+        response = welfare_handler(data)
+    elif data['queryResult']['intent']['displayName'] == '(lecture_all)request_lecture(lecture_type) - custom':
+        response = lecture_handler(data)
     
-    
-
-
-
+    return response
 
 
 @csrf_exempt
@@ -633,26 +661,347 @@ def webhook(request):
         data = json.loads(jsondata)
         
         print(data)
+
+        response = handler(data)
+        #data['queryResult']['fulfillmentText'] = ''
+        #data['queryResult']['fulfillmentMessages'] = response
+        #dialogflow_fulfillment = DialogflowRequest(request.body)
+        #response = handler(dialogflow_fulfillment)
         
-        '''
-        request_ = request.POST.dict()
-        print(type(request_))
-        for key, val in request_:
-            print(key, val)
-        print(request_)
-        '''
-        LOG.info(f'Request headers: {dict(request.headers)}')
-        LOG.info(f'Request body: {request_}')
-        #LOG.info(f'Response body: {agent.response}')
         
-        return JsonResponse(request)
+        return JsonResponse(response, safe=False)
+
+
+def culture_genre_handler(data):
+    global query_result, query_idx
+    valid_data(data)
+    genre = data['queryResult']['parameters']['genre']
+    contexts = data['queryResult']['outputContexts']
+    
+    if '/' in genre:
+        genre = genre.replace('/', '_')
+        
+    if genre == '전시_관람':
+        if query_result == None:
+            query_result = Exhibition.objects.filter(availiable = True).values()
+            print(query_result)
+            query_idx = len(query_result)
+        
+        result = check_left()
+    else :
+        if query_result == None:
+            query_result = Culture_Event.objects.filter(genre = Culture_genre.objects.get(name=genre), available = True).values()
+            print(query_result)
+            query_idx = len(query_result)
+        
+        result = check_left()
+        
+    genre = genre.replace('_', '/')
+    
+    if result == None:
+        text = "요청하신 "+genre+" 문화행사에 대해서 현재 참여 가능한 행사가 없습니다! ㅠㅠ"
+    else :
+        text = "요청하신 "+genre+" 문화행사의 정보입니다!\n\n"
+        if genre == '전시/관람':
+            flag = 0
+        else : 
+            flag = 1
+        text = make_text(text, result, flag)
+      
+    response = {'fulfillmentMessages': [{'text':{'text':[text]}}],
+                'outputContexts':contexts}
+    return response
+
+
+def valid_data(data):
+    global validated
+    if validated == True:
+        return
+    
+    exhibit = Exhibition.objects.all().values()
+    event = Culture_Event.objects.all().values()
+    date = datetime.datetime.now().date()
+    time = datetime.datetime.now().time()
+    print(date, time)
+    for val in exhibit:
+        try:
+            if (time >= datetime.datetime.strptime(val['starttime'], '%H:%M').time()) and (time <= datetime.datetime.strptime(val['endtime'], '%H:%M')):
+                tmp = Exhibition.objects.get(id = val['id'])
+                tmp.available = True
+                tmp.save()
+        except:
+            continue
+    
+    for val in event:
+        try:
+            if (date >= val['startdate']) and (date <= val['enddate']):
+                tmp = Culture_Event.objects.get(id = val['id'])
+                tmp.available = True
+                tmp.save()
+        except:
+            continue
+    validated = True
+    
+def make_text(text, result, flag):
+    
+    if len(result) == 0:
+        return None
+    for i, val in enumerate(result):
+        text += str(i+1)+'번\n'
+        text += '행사명 : '+val['name']+'\n'
+    
+    text += '요청하신 정보입니다! 원하시는 행사번호를 골라주세요!'
+    
+    return text 
+    
+    
+    
+def ex_make_text(text, result, flag):
+    if len(result) == 0:
+        return None
+    
+    text = ''
+    if flag == 0:
+        for i, val in result:
+            text += '행사명 : '+val['name']
+            text += '\n장소 : '+val['location']
+            text += '\n참여대상 : '+val['target']
+            text += '\n전화번호 : '+val['tel']
+            text += '\nURL : '+val['URL']
+            text += '\n사진 : '+val['image']
+            text += '\n시작시간 : '+val['starttime']
+            text += '\n종료시간 : '+val['endtime']
+    else :
+        for i, val in result:
+            text += '행사명 : '+val['name']
+            text += '\n장소 : '+val['location']
+            text += '\n요금 : '+val['fare']
+            text += '\n참여대상 : '+val['target']
+            text += '\n전화번호 : '+val['tel']
+            text += '\nURL : '+val['URL']
+            text += '\n사진 : '+val['image']
+            text += '\n시작날짜 : '+val['startdate']
+            text += '\n종료날짜 : '+val['enddate']
+        
+    text += '요청하신 정보입니다! 혹시 더 필요하신 정보가 있으신가요?'
+    return text
+
+def check_left():
+    global query_idx, query_result, idx
+    if query_idx == 0 :
+        return None
+    
+    if query_idx // 3 > 0:
+            result = query_result[idx: idx+3]
+            idx += 3
+    else :
+        mod = query_idx % 3
+        result = query_result[idx:idx+mod]
+        idx += mod
+    
+    return result
+    
+    
+def senior_center_handler(data):
+    #parameters = data.get_parameters()
+    #city = parameters['city'] 
+    city = data['queryResult']['parameters']['city']
+    contexts = data['queryResult']['outputContexts']
+    
+    result = Senior_center.objects.filter(city = city)
+    idx = random.sample(range(1, len(result)), 3)
+    
+    text = "요청하신 "+city+"의 경로당 정보 입니다.\n\n"
+    
+    
+    i = 0
+    for val in idx:
+        data = result.values()[val]
+        tmp = str(i+1)+'번 \n'
+        tmp += "이름 : "+ data['name']
+        tmp += "\n주소 : "+data['address']
+        tmp += "\n전화번호 : "+data['tel']
+        tmp += "\n\n"
+        i+= 1
+        text += tmp
+    
+    
+    
+    
+    text += "더 필요하신 정보가 있으신가요?"
+    #text = "더 필요하신 정보가 있으신가요?"
+    #print(text)
+    
+    #response = {'fulfillmentText':text}
+    response = {'fulfillmentMessages': [{'text':{'text':[text]}}],
+                'outputContexts':contexts}
+    
+    #response = {'fulfillmentMessages':texts}
+    print(response)
+    
+    return response
+    
+    
+def terminal_handler(data):
+    global query_idx, query_result, validated, idx
+    
+    if data['queryResult']['intent']['endInteraction'] == True:
+        query_idx = 0
+        query_result = None
+        validated = False
+        idx = 0
+        
+    
+    text = "혹시 더 필요하신 정보가 있나요?? 없다면 대화를 종료합니다!"
+        
+    response = {'fulfillmentMessages': [{'text':{'text':[text]}}]}
+
+    return response
+    
+
+def select_culture_handler(data):
+    global query_idx, query_result
+    
+    number = int(data['queryResult']['parameters']['number'])
+    contexts = data['queryResult']['outputContexts']
+    print(idx, number)
+    try :
+        result = query_result[idx+number-1]
+    except :
+        text = '잘못된 요청입니다. 처음부터 다시 시작해주세요!'
+        response = {'fulfillmentMessages': [{'text':{'text':[text]}}],
+                'outputContexts':contexts}
+        return response
+    
+    if '전시/관람' in str(contexts):
+        flag = 0
+    else :
+        flag = 1
+    
+    text = ex_make_text('', result, flag)
+    response = {'fulfillmentMessages': [{'text':{'text':[text]}}],
+                'outputContexts':contexts}
+    
+    
+    return response
+    
+def welcome_handler(data):
+     global query_idx, query_result, validated, idx
+     query_idx = 0
+     query_result = None
+     validated = False
+     idx = 0
+     
+     return 'Okay'
+    
+def trail_handler(data):
+    global query_idx, query_result
+    
+    contexts = data['queryResult']['outputContexts']
+    city = data['queryResult']['parameters']['city']
+    
+    trail_course_list = Course.objects.filter(city__contains = city).values()
+    print(len(trail_course_list))
+    idx = random.randint(0, len(trail_course_list))
+    dict = {'0':'입문', '1':'초급', '2':'중급'}
+    text = city+'의 추천코스 입니다.\n'
+    text += trail_course_list[idx]['type_id']+'의 '+trail_course_list[idx]['name']+'를 추천해드릴게요.\n'
+    text += '이 코스의 길이는 약'+trail_course_list[idx]['length']+'km 이고, 소요시간은 약 '
+    text += trail_course_list[idx]['time']+'입니다.\n'
+    text += '난이도는 '+dict[trail_course_list[idx]['level']]+'이며, 자세한 사항은 아래의 링크 참조 부탁드립니다.\n'
+    text += trail_course_list[idx]['url']
+    text += '\n정보 : '+trail_course_list[idx]['desc']
+    text += '\n\n다른 정보 원하는것 있으세요?'
+    '''
+    if data['queryResult']['parameters']['info'] != None:
+        return trail_info(data)
+
+    else:
+        text = ''.join(trail_name,'에서 궁금한 정보가 무엇인가요?')
+    '''
+    response = {'fulfillmentMessages':[{'text':{'text':[text]}}],
+                    'outputContexts':contexts}
+    
+    return response
+
+def trail_info(data):
+    global query_idx, query_result
+
+    if data['queryResult']['parameters']['trailName'] != None:
+        trail_name = data['queryResult']['parameters']['trailName']  
+
+        info = data['queryResult']['parameters']['trailinfo']
+
+        if info == '위치':
+            text = ''.join(trail_name, '의 출발점은 ', Course.objects.filter(name = trail_name).location)
+ 
+        elif info == '길이':
+            text = ''.join(trail_name, '의 길이는 ', Course.objects.filter(name = trail_name).length)
+
+        response = {'fulfillmentMessages':[{'text':{'text':[text]}}],
+                    'outputContexts':contexts}
+    else:
+        response = {'fulfillmentMessages': [{'text':{'text':['잘못된 요청입니다! 처음부터 다시 시도해주세요.']}}],
+                    'outputContexts':contexts} 
+    return reponse
+    
+def welfare_handler(data):
+    contexts = data['queryResult']['outputContexts']
+    city = data['queryResult']['parameters']['city']
+    
+    result = Wel_facility.objects.filter(city = city)
+    
+    idx = random.randint(0, len(result))
+    text = '요청하신 '+city+'의 복지시설 정보입니다.\n'
+    data = result.values()[idx]
+    text += '이름 : '+data['name']
+    text += '\n주소 : '+data['address']+'\n\n'
+    
+    text += '또 어떤일을 도와드릴까요?'
+    
+    response = {'fulfillmentMessages': [{'text':{'text':[text]}}],
+                    'outputContexts':contexts}
+    return response
+
+
+def lecture_handler(data):
+    contexts = data['queryResult']['outputContexts']
+    genre = data['queryResult']['parameters']['lecture_genre']
+    type = data['queryResult']['parameters']['kind'] #온오프
+    
+    result = Academy_lecture.objects.filter(genre = genre, type = type)
+    
+    text = '요청하신 '+genre+'의 '+type+' 강의 입니다.\n\n'
+    i = 0
+    idx = random.sample(range(0, len(result)), 3)
+    for val in idx:
+        data = result.values()[val]
+        text += str(i+1)+'번 강의\n'
+        text += '강의명 : '+data['name']
+        text += '\n강의종류 : '+ data['type_id']
+        text += '\n강의분야 : '+data['genre_id']
+        text += '\n강의대상 : '+data['target']
+        text += '\n난이도 : '+data['level']
+        if data['startdate'] != None:
+            text += '\n시작시간 :'+data['startdate'].strftime('%Y-%m-%d')
+            text += '\n종료시간 : '+data['enddate'].strftime('%Y-%m-%d')
+        text += '\nURL : '+data['url']
+        text += '\n\n'
+        i+=1
+        
+    text += '또 필요하신 정보가 있으신가요?'
+    response = {'fulfillmentMessages': [{'text':{'text':[text]}}],
+                'outputContexts':contexts}
+ 
+    
+    return response
 
 
 
-
-
-
-
+def academy_handler(data):
+    response = ''
+    
+    return response
 
 
 
