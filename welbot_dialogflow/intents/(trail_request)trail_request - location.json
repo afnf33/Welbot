@@ -1,0 +1,74 @@
+{
+  "id": "92c7cd7b-2771-4c23-9fa8-574c86468eed",
+  "parentId": "62a6102c-3088-4f29-8e94-56b91ac8cdc4",
+  "rootParentId": "62a6102c-3088-4f29-8e94-56b91ac8cdc4",
+  "name": "(trail_request)trail_request - location",
+  "auto": true,
+  "contexts": [
+    "trail_request",
+    "trail_request-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "trail_request.trail_request-custom",
+      "affectedContexts": [
+        {
+          "name": "trail_request",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3aab29a1-8735-4ffb-8b57-e36d2835eece",
+          "name": "trailName",
+          "required": true,
+          "dataType": "@trailName",
+          "value": "$trailName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "f5fbe71a-d25b-4c21-a26d-950229519481",
+          "name": "trailinfo",
+          "required": false,
+          "dataType": "@trailInfo",
+          "value": "$trailinfo",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "speech": [
+            "요청하신 산책로의 위치는 [__________]입니다."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

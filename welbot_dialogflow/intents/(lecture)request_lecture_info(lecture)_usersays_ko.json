@@ -1,0 +1,303 @@
+[
+  {
+    "id": "e1c609d9-165e-4544-b4d7-da3831cd6131",
+    "data": [
+      {
+        "text": "가격",
+        "meta": "@info_lecture",
+        "alias": "info_lecture",
+        "userDefined": true
+      },
+      {
+        "text": "은?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "93eff428-ed31-46e3-acd2-8615f7a4d70f",
+    "data": [
+      {
+        "text": "강의",
+        "meta": "@Lecture",
+        "alias": "Lecture",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "정보",
+        "meta": "@info_lecture",
+        "alias": "info_lecture",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "54ac6875-d551-454d-8b05-1808cceab956",
+    "data": [
+      {
+        "text": "강의",
+        "meta": "@Lecture",
+        "alias": "Lecture",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "정보",
+        "meta": "@info_lecture",
+        "alias": "info_lecture",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "019a9bf0-7953-458c-8695-c249c735153a",
+    "data": [
+      {
+        "text": "신청기간",
+        "meta": "@info_lecture",
+        "alias": "info_lecture",
+        "userDefined": false
+      },
+      {
+        "text": "은 ",
+        "userDefined": false
+      },
+      {
+        "text": "언제",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "야?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "18f10b6b-976c-4dee-a434-5b1d088bcc94",
+    "data": [
+      {
+        "text": "어디서",
+        "meta": "@info_lecture",
+        "alias": "info_lecture",
+        "userDefined": false
+      },
+      {
+        "text": " 해?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "951ae793-6131-4208-b28a-131513bac884",
+    "data": [
+      {
+        "text": "강의",
+        "meta": "@Lecture",
+        "alias": "Lecture",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "장소",
+        "meta": "@info_lecture",
+        "alias": "info_lecture",
+        "userDefined": false
+      },
+      {
+        "text": "는 어디야?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "0a279f11-7a97-4898-adf2-bb3da8340ceb",
+    "data": [
+      {
+        "text": "강의",
+        "meta": "@Lecture",
+        "alias": "Lecture",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "이름",
+        "meta": "@info_lecture",
+        "alias": "info_lecture",
+        "userDefined": true
+      },
+      {
+        "text": "이",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " 뭐야?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "f2311ae1-2037-4ea1-912c-5096e11dc400",
+    "data": [
+      {
+        "text": "얼마",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "야?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "ab143bc4-4c92-4a56-b75d-878f8c4839a3",
+    "data": [
+      {
+        "text": "요금",
+        "meta": "@info_lecture",
+        "alias": "info_lecture",
+        "userDefined": false
+      },
+      {
+        "text": "은 ",
+        "userDefined": false
+      },
+      {
+        "text": "얼마",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "야?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "b5f29da7-8f15-4032-adfa-6a17bf3133bf",
+    "data": [
+      {
+        "text": "비용",
+        "meta": "@info_lecture",
+        "alias": "info_lecture",
+        "userDefined": false
+      },
+      {
+        "text": "은 ",
+        "userDefined": false
+      },
+      {
+        "text": "얼마",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "야?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "a46c5e0d-b33c-43a6-8c17-92a795e94e3f",
+    "data": [
+      {
+        "text": "링크",
+        "meta": "@info_lecture",
+        "alias": "info_lecture",
+        "userDefined": false
+      },
+      {
+        "text": " 보내줘",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "d77af6cb-6124-44d0-b689-cc08fe0a6905",
+    "data": [
+      {
+        "text": "홈페이지 주소",
+        "meta": "@info_lecture",
+        "alias": "info_lecture",
+        "userDefined": false
+      },
+      {
+        "text": "는?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  }
+]

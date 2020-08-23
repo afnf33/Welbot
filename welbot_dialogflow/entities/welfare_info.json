@@ -1,0 +1,9 @@
+{
+  "id": "ecf2c674-95b4-4043-8dd0-31681aa28985",
+  "name": "welfare_info",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

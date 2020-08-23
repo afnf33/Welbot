@@ -1,0 +1,9 @@
+{
+  "id": "a7ad3064-d35a-4f7f-97d5-da6ab033de17",
+  "name": "Culture",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

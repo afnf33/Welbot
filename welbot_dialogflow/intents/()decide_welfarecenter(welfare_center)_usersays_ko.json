@@ -1,0 +1,261 @@
+[
+  {
+    "id": "7982aa24-64c4-4d88-a039-4bd7d6fba80e",
+    "data": [
+      {
+        "text": "ㅇㅇ구",
+        "meta": "@city",
+        "alias": "city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "복지시설",
+        "meta": "@Welfare_center",
+        "alias": "Welfare_center",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "정보",
+        "meta": "@welfare_info",
+        "alias": "welfare_info",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "98c8158a-d60d-4393-9c6d-a95c60bd00c6",
+    "data": [
+      {
+        "text": "ㅇㅇ구",
+        "meta": "@city",
+        "alias": "city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "복지시설",
+        "meta": "@Welfare_center",
+        "alias": "Welfare_center",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "dfe86072-59e1-4a13-8416-d3df1b43ca81",
+    "data": [
+      {
+        "text": "ㅇㅇ구",
+        "meta": "@city",
+        "alias": "city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "복지시설",
+        "meta": "@Welfare_center",
+        "alias": "Welfare_center",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "정보",
+        "meta": "@welfare_info",
+        "alias": "welfare_info",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "aebe920f-1c12-445f-b39e-7b8f87a3eaec",
+    "data": [
+      {
+        "text": "ㅇㅇ구",
+        "meta": "@city",
+        "alias": "city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "복지시설",
+        "meta": "@Welfare_center",
+        "alias": "Welfare_center",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "529c697c-b9eb-4f43-846d-f6f17bdb05ed",
+    "data": [
+      {
+        "text": "복지시설",
+        "meta": "@Welfare_center",
+        "alias": "Welfare_center",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "정보",
+        "meta": "@welfare_info",
+        "alias": "welfare_info",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "88cffad8-22e6-4f7a-88b1-6bcd9c891483",
+    "data": [
+      {
+        "text": "복지시설",
+        "meta": "@Welfare_center",
+        "alias": "Welfare_center",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "502a7f59-45c6-4bca-a1e1-7dae3946ae80",
+    "data": [
+      {
+        "text": "복지시설",
+        "meta": "@Welfare_center",
+        "alias": "Welfare_center",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "정보",
+        "meta": "@welfare_info",
+        "alias": "welfare_info",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "2a9619ea-196a-4b60-8a71-143d838f5a28",
+    "data": [
+      {
+        "text": "복지시설",
+        "meta": "@Welfare_center",
+        "alias": "Welfare_center",
+        "userDefined": false
+      },
+      {
+        "text": " 갈래",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "55e38c27-5344-4c99-88d7-a560dc88be04",
+    "data": [
+      {
+        "text": "복지시설",
+        "meta": "@Welfare_center",
+        "alias": "Welfare_center",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "ko",
+    "updated": 0
+  }
+]

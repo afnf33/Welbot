@@ -1,0 +1,83 @@
+{
+  "id": "1a7cc5d2-a8a1-46a4-8f96-f36f3f67992a",
+  "name": "()decide_culture(culture_all)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "decide_cultureculture_all",
+      "affectedContexts": [
+        {
+          "name": "culture_all",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "9274b844-0437-4368-98c8-8a4eb23f429a",
+          "name": "question",
+          "required": false,
+          "dataType": "@question",
+          "value": "$question",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3a88a9b1-f96f-4531-a3d1-d9125a57a945",
+          "name": "general",
+          "required": false,
+          "dataType": "@general",
+          "value": "$general",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "76d1d82a-4ca1-4d07-9096-6aa016b10f73",
+          "name": "Culture",
+          "required": false,
+          "dataType": "@Culture",
+          "value": "$Culture",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "speech": [
+            "$Culture 을 선택하셨군요! 좋은 선택이에요! [클래식,  뮤지컬/오페라, 전시회, 연극, 콘서트, 국악, 무용, 전시/관람 등] 선택해주세요"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

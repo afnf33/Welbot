@@ -1,0 +1,265 @@
+[
+  {
+    "id": "c46a81d6-a54a-4e87-a5b3-291d276301b4",
+    "data": [
+      {
+        "text": "ㅇㅇ구",
+        "meta": "@city",
+        "alias": "city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "산책로",
+        "meta": "@trail",
+        "alias": "trail",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "06b78c46-d231-40ef-8dbb-d30a9ccf608b",
+    "data": [
+      {
+        "text": "ㅇㅇ구",
+        "meta": "@city",
+        "alias": "city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "산책로",
+        "meta": "@trail",
+        "alias": "trail",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "정보",
+        "meta": "@trailInfo",
+        "alias": "trailInfo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "dc263dc5-21bb-4498-a7c1-6af74e5d127d",
+    "data": [
+      {
+        "text": "산책로이름",
+        "meta": "@trailName",
+        "alias": "trailname",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "정보",
+        "meta": "@trailInfo",
+        "alias": "trailInfo",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "1829bdc7-ca86-4ec0-9713-9ec92cdbead7",
+    "data": [
+      {
+        "text": "산책로이름",
+        "meta": "@trailName",
+        "alias": "trailname",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "정보",
+        "meta": "@trailInfo",
+        "alias": "trailInfo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "51f2011a-95b5-45e6-9e27-75d51ac95dd5",
+    "data": [
+      {
+        "text": "산책로이름",
+        "meta": "@trailName",
+        "alias": "trailname",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "8a6998f4-fd7e-40a0-b290-d63c0e8d14b1",
+    "data": [
+      {
+        "text": "산책",
+        "meta": "@trail",
+        "alias": "trail",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "17c99e78-5a20-4f9f-ba68-5b35060135ab",
+    "data": [
+      {
+        "text": "산책",
+        "meta": "@trail",
+        "alias": "trail",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "정보",
+        "meta": "@trailInfo",
+        "alias": "trailInfo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "ddc0e112-4a29-4335-9bcc-30c924fc8b65",
+    "data": [
+      {
+        "text": "산책로",
+        "meta": "@trail",
+        "alias": "trail",
+        "userDefined": false
+      },
+      {
+        "text": " 갈래",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "4106b504-d68e-4769-bff2-250644c6be44",
+    "data": [
+      {
+        "text": "산책로",
+        "meta": "@trail",
+        "alias": "trail",
+        "userDefined": false
+      },
+      {
+        "text": " 걸을래",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "2f84c119-838f-4cb0-a99d-ef556fdcc68a",
+    "data": [
+      {
+        "text": "산책로",
+        "meta": "@trailName",
+        "alias": "trailname",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "정보 알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "1577c3b5-ebf2-46db-b6cd-99548545c720",
+    "data": [
+      {
+        "text": "산책로",
+        "meta": "@trail",
+        "alias": "trail",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  }
+]

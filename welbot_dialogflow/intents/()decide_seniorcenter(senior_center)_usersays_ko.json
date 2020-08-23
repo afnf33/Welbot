@@ -1,0 +1,216 @@
+[
+  {
+    "id": "865b75c9-440a-4d64-8270-27c56c5b1e03",
+    "data": [
+      {
+        "text": "경로당",
+        "meta": "@Senior_center",
+        "alias": "senior_center",
+        "userDefined": false
+      },
+      {
+        "text": " 갈래",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "32a0ce3b-cfc0-4d8e-850e-4f69edec885e",
+    "data": [
+      {
+        "text": "경로당",
+        "meta": "@Senior_center",
+        "alias": "senior_center",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "54efeede-5fc4-4fd8-8ac8-fc61db6ad36b",
+    "data": [
+      {
+        "text": "경로당",
+        "meta": "@Senior_center",
+        "alias": "senior_center",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "정보",
+        "meta": "@senior_center_info",
+        "alias": "senior_center_info",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "827e8439-03df-43d1-9d0a-ce9e3b1058b6",
+    "data": [
+      {
+        "text": "경로당",
+        "meta": "@Senior_center",
+        "alias": "senior_center",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "7bd3dabe-0796-4921-a2d2-8e06d63fcd75",
+    "data": [
+      {
+        "text": "경로당",
+        "meta": "@Senior_center",
+        "alias": "senior_center",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "정보",
+        "meta": "@senior_center_info",
+        "alias": "senior_center_info",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "e1d8a2ab-15e5-4198-ab6d-0d45fb2c0034",
+    "data": [
+      {
+        "text": "ㅇㅇ구",
+        "meta": "@city",
+        "alias": "city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "경로당",
+        "meta": "@Senior_center",
+        "alias": "senior_center",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "정보",
+        "meta": "@senior_center_info",
+        "alias": "senior_center_info",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "8da8ee51-705d-48f1-96a1-a39d9f101730",
+    "data": [
+      {
+        "text": "ㅇㅇ구",
+        "meta": "@city",
+        "alias": "city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "경로당",
+        "meta": "@Senior_center",
+        "alias": "senior_center",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "14d81ec6-cc86-469d-aab5-cce003d1727c",
+    "data": [
+      {
+        "text": "ㅇㅇ구",
+        "meta": "@city",
+        "alias": "city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "경로당",
+        "meta": "@Senior_center",
+        "alias": "senior_center",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  }
+]

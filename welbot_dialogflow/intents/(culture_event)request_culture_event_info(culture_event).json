@@ -1,0 +1,71 @@
+{
+  "id": "0b93db23-a8d9-4a4c-bbc4-367ca42225aa",
+  "name": "(culture_event)request_culture_event_info(culture_event)",
+  "auto": true,
+  "contexts": [
+    "culture_event"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "culture_event",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8ee6bc5d-f1e6-4ccf-9d6e-319d62eccb41",
+          "name": "info_event",
+          "required": false,
+          "dataType": "@info_event",
+          "value": "$info_event",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "ad713269-a872-4ad2-82b5-9b53aec4197f",
+          "name": "question",
+          "required": false,
+          "dataType": "@question",
+          "value": "$question",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "speech": [
+            "문화 정보 질문 확인중~~~"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "0879d0ae-5701-4ded-9298-19b46bfc0e8e",
+  "name": "lecture_onoff",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,9 @@
+{
+  "id": "32b8315c-5047-49a8-9080-a430364bcdd0",
+  "name": "infrastructure",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

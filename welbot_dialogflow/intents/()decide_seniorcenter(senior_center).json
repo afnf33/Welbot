@@ -1,0 +1,99 @@
+{
+  "id": "9891a693-9e0f-45ca-b663-918b298e2e90",
+  "name": "()decide_seniorcenter(senior_center)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "decide_seniorcentersenior_center",
+      "affectedContexts": [
+        {
+          "name": "senior_center",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "bbea4e21-5125-4e9a-be65-432bb8dc864e",
+          "name": "city",
+          "required": true,
+          "dataType": "@city",
+          "value": "$city",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "ko",
+              "value": "어디 구인지 알려주세요"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d8c41e3c-dc0a-4796-8466-e7bdf02e5757",
+          "name": "senior_center",
+          "required": false,
+          "dataType": "@Senior_center",
+          "value": "$senior_center",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "0ddee8eb-ebdf-4f9b-84ad-eafcc6df8420",
+          "name": "question",
+          "required": false,
+          "dataType": "@question",
+          "value": "$question",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "63bd93bb-a2d5-49d2-9a47-bbcb92e4f7e1",
+          "name": "senior_center_info",
+          "required": false,
+          "dataType": "@senior_center_info",
+          "value": "$senior_center_info",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

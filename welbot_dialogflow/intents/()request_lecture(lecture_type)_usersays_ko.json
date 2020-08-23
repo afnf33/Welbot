@@ -1,0 +1,147 @@
+[
+  {
+    "id": "45a187c5-513c-431f-bedc-ccfbcf30cbee",
+    "data": [
+      {
+        "text": "ㅇㅇ구",
+        "meta": "@city",
+        "alias": "city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "예술",
+        "meta": "@Lecture_type",
+        "alias": "Lecture_type",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "수업",
+        "meta": "@Lecture",
+        "alias": "Lecture",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "f28d9f85-dcfb-48a9-a71d-e2aed9e05a3a",
+    "data": [
+      {
+        "text": "예술",
+        "meta": "@Lecture_type",
+        "alias": "Lecture_type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "3de532d5-04d5-4240-ac91-1083794c4560",
+    "data": [
+      {
+        "text": "예술",
+        "meta": "@Lecture_type",
+        "alias": "Lecture_type",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "수업",
+        "meta": "@Lecture",
+        "alias": "Lecture",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "a107f320-a8bb-481d-a568-e25f5acdb14e",
+    "data": [
+      {
+        "text": "언어",
+        "meta": "@Lecture_type",
+        "alias": "Lecture_type",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "064e6d5f-b61d-497a-99fc-b89df293d314",
+    "data": [
+      {
+        "text": "예술",
+        "meta": "@Lecture_type",
+        "alias": "Lecture_type",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "수업",
+        "meta": "@Lecture",
+        "alias": "Lecture",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "id": "a2e7bb9f-4c7c-4c2f-bba0-8b1399f312d0",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "speech": [
+            "제가 제대로 이해하지 못한것 같아요. 죄송해요. 제가 알려드릴 수 있는 정보는 [문화행사, 복지시설, 경로당, 산책로, 교육정보] 뿐이에요..."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

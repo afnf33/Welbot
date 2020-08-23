@@ -1,0 +1,9 @@
+{
+  "id": "d34e6cd9-d955-4d6e-bae3-5edaa376f7ce",
+  "name": "Lecture_type",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

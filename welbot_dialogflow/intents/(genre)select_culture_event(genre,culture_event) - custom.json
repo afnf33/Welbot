@@ -1,0 +1,66 @@
+{
+  "id": "05ff3152-4d4b-4221-9e47-3009222518bd",
+  "parentId": "7496c677-55f5-43c0-9f83-75cc87e76a3c",
+  "rootParentId": "7496c677-55f5-43c0-9f83-75cc87e76a3c",
+  "name": "(genre)select_culture_event(genre,culture_event) - custom",
+  "auto": true,
+  "contexts": [
+    "genre",
+    "request_culturegenre-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "decide_cultureculture_all.request_culturegenre-custom",
+      "affectedContexts": [
+        {
+          "name": "genre",
+          "lifespan": 1
+        },
+        {
+          "name": "culture_event",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "061a4e1c-9441-465e-8699-c76bfe4ab667",
+          "name": "number",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "ko",
+              "value": "다시 입력해주세요."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

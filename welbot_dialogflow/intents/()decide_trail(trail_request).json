@@ -1,0 +1,120 @@
+{
+  "id": "c0c7e2ea-10d3-4f41-8c94-f3b4ebd6920b",
+  "name": "()decide_trail(trail_request)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "decide_trailtrail_request",
+      "affectedContexts": [
+        {
+          "name": "decide_trailtrail_all-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "trail_request",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "4ae060af-aaf1-4099-acbf-c9ca74e312f6",
+          "name": "trail",
+          "required": false,
+          "dataType": "@trail",
+          "value": "$trail",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "66c69e2b-c723-4b3d-b7d8-d0026f740a90",
+          "name": "question",
+          "required": false,
+          "dataType": "@question",
+          "value": "$question",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e1f69ceb-e984-4478-b104-b0d56996e1b9",
+          "name": "trailname",
+          "required": false,
+          "dataType": "@trailName",
+          "value": "$trailname",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "bde27426-a445-439a-9ba4-be56faffd62d",
+          "name": "trailInfo",
+          "required": false,
+          "dataType": "@trailInfo",
+          "value": "$trailInfo",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "1dc1a4f1-0ef5-47d7-b5df-2d7a96131517",
+          "name": "city",
+          "required": true,
+          "dataType": "@city",
+          "value": "$city",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "ko",
+              "value": "어디 구인지 알려주세요!"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "speech": [
+            "산책은 건강에 정말 좋죠! $city의 산책로는 다음과 같아요!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

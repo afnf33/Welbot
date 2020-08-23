@@ -1,0 +1,104 @@
+{
+  "id": "bfa1fb54-2b16-4cce-af68-44ac7ec447b0",
+  "parentId": "9203895f-cc94-4a34-9986-4f2ab745ce95",
+  "rootParentId": "9203895f-cc94-4a34-9986-4f2ab745ce95",
+  "name": "(lecture_all)request_lecture(lecture_type) - custom",
+  "auto": true,
+  "contexts": [
+    "lecture_all",
+    "decide_lectureinitlecture_all-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "decide_lectureinitlecture_all.decide_lectureinitlecture_all-custom",
+      "affectedContexts": [
+        {
+          "name": "lecture_type",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b5f9c50f-7037-48df-9d0e-f4efebcaba6c",
+          "name": "lecture_genre",
+          "required": false,
+          "dataType": "@Lecture_type",
+          "value": "$lecture_genre",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "953d24c9-3a29-4be3-bde4-2005664b0f5b",
+          "name": "Lecture",
+          "required": false,
+          "dataType": "@Lecture",
+          "value": "$Lecture",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "ee038e85-d55d-446d-a847-ed97d321a258",
+          "name": "question",
+          "required": false,
+          "dataType": "@question",
+          "value": "$question",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "ff0d69da-a9a5-4f6a-9ee4-258cc4de7f1f",
+          "name": "kind",
+          "required": true,
+          "dataType": "@lecture_onoff",
+          "value": "$kind",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "ko",
+              "value": "온라인 / 오프라인 중에서 골라주세요."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

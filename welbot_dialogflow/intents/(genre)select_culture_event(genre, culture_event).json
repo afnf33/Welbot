@@ -1,0 +1,61 @@
+{
+  "id": "962a72eb-9ac3-42ed-986a-d0df607c43cb",
+  "name": "(genre)select_culture_event(genre, culture_event)",
+  "auto": true,
+  "contexts": [
+    "genre"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "genre",
+          "lifespan": 1
+        },
+        {
+          "name": "culture_event",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1cd81054-2bc1-4bb8-b7ee-4de7ede0281a",
+          "name": "number",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "speech": [
+            "문화행사가 선택되었습니다! $number 행사의 정보는 다음과 같아요!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

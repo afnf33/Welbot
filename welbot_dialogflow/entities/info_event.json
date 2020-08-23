@@ -1,0 +1,9 @@
+{
+  "id": "c1891bb4-d8fa-439e-8d81-9df7aafb095e",
+  "name": "info_event",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

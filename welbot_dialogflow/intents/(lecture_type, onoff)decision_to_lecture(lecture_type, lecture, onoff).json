@@ -1,0 +1,66 @@
+{
+  "id": "bbe84071-65fc-401d-a4b5-6cd6217c7a41",
+  "name": "(lecture_type, onoff)decision_to_lecture(lecture_type, lecture, onoff)",
+  "auto": true,
+  "contexts": [
+    "lecture_type",
+    "onoff"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "decide_lectureinitlecture_all.request_lecturelecture_type-custom.lecture_typeonoff_lecturelecture_typeonoff-custom-custom",
+      "affectedContexts": [
+        {
+          "name": "lecture",
+          "lifespan": 1
+        },
+        {
+          "name": "lecture_type",
+          "lifespan": 1
+        },
+        {
+          "name": "onoff",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "0622ec40-16ad-4557-a0bc-c88bab1e5a00",
+          "name": "number",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "speech": [
+            "$number 에 해당하는 강좌 정보는 다음과 같아요!!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

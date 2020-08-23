@@ -1,0 +1,202 @@
+[
+  {
+    "value": "강남구",
+    "synonyms": [
+      "강남",
+      "강남구",
+      "Gangnam"
+    ]
+  },
+  {
+    "value": "강동구",
+    "synonyms": [
+      "강동구",
+      "강동",
+      "Gangdong"
+    ]
+  },
+  {
+    "value": "강북구",
+    "synonyms": [
+      "강북구",
+      "강북",
+      "Gangbuk"
+    ]
+  },
+  {
+    "value": "강서구",
+    "synonyms": [
+      "강서구",
+      "강서",
+      "Gangseo"
+    ]
+  },
+  {
+    "value": "관악구",
+    "synonyms": [
+      "관악구",
+      "관악",
+      "GwanAk"
+    ]
+  },
+  {
+    "value": "광진구",
+    "synonyms": [
+      "광진구",
+      "광진",
+      "GwangJin"
+    ]
+  },
+  {
+    "value": "구로구",
+    "synonyms": [
+      "구로구",
+      "구로",
+      "Guro"
+    ]
+  },
+  {
+    "value": "금천구",
+    "synonyms": [
+      "금천구",
+      "금천",
+      "Geumcheon"
+    ]
+  },
+  {
+    "value": "노원구",
+    "synonyms": [
+      "노원구",
+      "노원",
+      "Nowon"
+    ]
+  },
+  {
+    "value": "도봉구",
+    "synonyms": [
+      "도봉구",
+      "도봉",
+      "Dobong"
+    ]
+  },
+  {
+    "value": "동대문구",
+    "synonyms": [
+      "동대문구",
+      "동대문",
+      "DongDaemun"
+    ]
+  },
+  {
+    "value": "동작구",
+    "synonyms": [
+      "동작구",
+      "동작",
+      "DongJak"
+    ]
+  },
+  {
+    "value": "마포구",
+    "synonyms": [
+      "마포구",
+      "마포",
+      "Mapoe"
+    ]
+  },
+  {
+    "value": "서대문구",
+    "synonyms": [
+      "서대문구",
+      "서대문",
+      "SeoDaemun"
+    ]
+  },
+  {
+    "value": "서초구",
+    "synonyms": [
+      "서초구",
+      "서초",
+      "Seocho"
+    ]
+  },
+  {
+    "value": "성동구",
+    "synonyms": [
+      "성동구",
+      "성동",
+      "Seongdong"
+    ]
+  },
+  {
+    "value": "성북구",
+    "synonyms": [
+      "성북구",
+      "성북",
+      "Seongbuk"
+    ]
+  },
+  {
+    "value": "송파구",
+    "synonyms": [
+      "송파구",
+      "송파",
+      "Songpa"
+    ]
+  },
+  {
+    "value": "양천구",
+    "synonyms": [
+      "양천구",
+      "양천",
+      "Yangcheon"
+    ]
+  },
+  {
+    "value": "영등포구",
+    "synonyms": [
+      "영등포구",
+      "영등포",
+      "Yeongdeungpo"
+    ]
+  },
+  {
+    "value": "용산구",
+    "synonyms": [
+      "용산구",
+      "용산",
+      "Yongsan"
+    ]
+  },
+  {
+    "value": "은평구",
+    "synonyms": [
+      "은평구",
+      "은평",
+      "EunPyung"
+    ]
+  },
+  {
+    "value": "종로구",
+    "synonyms": [
+      "종로구",
+      "종로",
+      "Jongro"
+    ]
+  },
+  {
+    "value": "중구",
+    "synonyms": [
+      "중구",
+      "중",
+      "Joong"
+    ]
+  },
+  {
+    "value": "중랑구",
+    "synonyms": [
+      "중랑구",
+      "중랑",
+      "Joongrang"
+    ]
+  }
+]

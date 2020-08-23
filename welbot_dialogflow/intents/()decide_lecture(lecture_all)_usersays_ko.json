@@ -1,0 +1,184 @@
+[
+  {
+    "id": "71bf0b95-77e1-46a7-9ab9-146fb50f3b5c",
+    "data": [
+      {
+        "text": "수업",
+        "meta": "@Lecture",
+        "alias": "Lecture",
+        "userDefined": false
+      },
+      {
+        "text": " 듣고 싶어",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "44eceed3-bd9b-4e6b-b6df-96e016f06435",
+    "data": [
+      {
+        "text": "수업",
+        "meta": "@Lecture",
+        "alias": "Lecture",
+        "userDefined": false
+      },
+      {
+        "text": " 들을래",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "2ec0bab9-9011-4d9d-ad05-2aabdc79f181",
+    "data": [
+      {
+        "text": "교육",
+        "meta": "@Lecture",
+        "alias": "Lecture",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "6b2fbc3a-8571-4e3e-8002-db46caedc493",
+    "data": [
+      {
+        "text": "교육",
+        "meta": "@Lecture",
+        "alias": "Lecture",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "정보",
+        "meta": "@info_lecture",
+        "alias": "info_lecture",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "c8d997c8-dc60-4f28-8e36-ea981ca9ad80",
+    "data": [
+      {
+        "text": "교육 프로그램",
+        "meta": "@infrastructure",
+        "alias": "infrastructure",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "52ccfc48-a966-4bb7-aaf7-4f5a87929e10",
+    "data": [
+      {
+        "text": "교육",
+        "meta": "@Lecture",
+        "alias": "Lecture",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "정보",
+        "meta": "@info_lecture",
+        "alias": "info_lecture",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "1505adf7-1e76-4f87-a595-be7a51ccf6c1",
+    "data": [
+      {
+        "text": "교육",
+        "meta": "@Lecture",
+        "alias": "Lecture",
+        "userDefined": false
+      },
+      {
+        "text": " 받을래",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "a1f1241a-cfce-489f-b39d-f67ddf3be1cb",
+    "data": [
+      {
+        "text": "교육",
+        "meta": "@Lecture",
+        "alias": "Lecture",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  }
+]

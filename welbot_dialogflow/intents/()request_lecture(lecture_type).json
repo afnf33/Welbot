@@ -1,0 +1,106 @@
+{
+  "id": "25bfda0b-939c-41bb-99be-1c279e400cf2",
+  "name": "()request_lecture(lecture_type)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "decide_lectureinitlecture_all",
+      "affectedContexts": [
+        {
+          "name": "lecture_type",
+          "lifespan": 1
+        },
+        {
+          "name": "request_lecturelecture_type-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "31baa79b-cfda-4f92-a07a-d58949140785",
+          "name": "Lecture_type",
+          "required": false,
+          "dataType": "@Lecture_type",
+          "value": "$Lecture_type",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "880a9a84-c9e0-43e4-a13f-dc69bba76c0e",
+          "name": "Lecture",
+          "required": false,
+          "dataType": "@Lecture",
+          "value": "$Lecture",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "75aa1ea6-4464-412f-9859-8c91e2f96fd1",
+          "name": "question",
+          "required": false,
+          "dataType": "@question",
+          "value": "$question",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "02116470-b0f6-4740-a381-9659d1eccb07",
+          "name": "city",
+          "required": true,
+          "dataType": "@city",
+          "value": "$city",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "ko",
+              "value": "어디세요???"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "speech": [
+            "\"$Lecture_type\" ! 좋은 수업이죠. [온라인 강의, 오프라인 강의] 중 하나를 선택해주세요"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

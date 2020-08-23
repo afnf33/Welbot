@@ -1,0 +1,9 @@
+{
+  "id": "e0e262af-491d-4fb8-8abf-d8ded72dabaf",
+  "name": "trailInfo",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

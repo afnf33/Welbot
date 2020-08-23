@@ -1,0 +1,223 @@
+[
+  {
+    "id": "2651762a-f84d-4bf6-a177-bd3da1ba89cd",
+    "data": [
+      {
+        "text": "관람",
+        "meta": "@Genre",
+        "alias": "genre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "bbdd7753-28fb-4e78-b91b-2a7a7d47af6d",
+    "data": [
+      {
+        "text": "전시",
+        "meta": "@Genre",
+        "alias": "genre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "5a64ddc5-0de0-47f5-983e-8710016cd419",
+    "data": [
+      {
+        "text": "전시",
+        "meta": "@Genre",
+        "alias": "genre",
+        "userDefined": false
+      },
+      {
+        "text": "/",
+        "userDefined": false
+      },
+      {
+        "text": "관람",
+        "meta": "@Genre",
+        "alias": "genre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "6c4f1275-f529-45a4-bb8b-ae7bf123e2d0",
+    "data": [
+      {
+        "text": "연극",
+        "meta": "@Genre",
+        "alias": "genre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "ae66b0ce-893f-48e8-af09-24d73135710e",
+    "data": [
+      {
+        "text": "콘서트",
+        "meta": "@Genre",
+        "alias": "genre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "4b5ef1e0-3b5d-480a-8de7-590aba72c5b8",
+    "data": [
+      {
+        "text": "연극",
+        "meta": "@Genre",
+        "alias": "genre",
+        "userDefined": true
+      },
+      {
+        "text": " 정보 알려줘",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "2e4932e3-7eb4-48d9-a5f0-694c7fddd8a3",
+    "data": [
+      {
+        "text": "국악",
+        "meta": "@Genre",
+        "alias": "genre",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "정보",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "11774466-779d-4445-9a21-66bea803edbc",
+    "data": [
+      {
+        "text": "국악",
+        "meta": "@Genre",
+        "alias": "genre",
+        "userDefined": false
+      },
+      {
+        "text": " 궁금해",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "12474a41-10c6-4f69-8ca8-0d168d1e1835",
+    "data": [
+      {
+        "text": "국악",
+        "meta": "@Genre",
+        "alias": "genre",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "정보",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "70460236-a285-4dad-9f53-b453f8eddbe2",
+    "data": [
+      {
+        "text": "국악",
+        "meta": "@Genre",
+        "alias": "genre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "8743278a-d587-42ff-acf8-4aba9bb88a85",
+    "data": [
+      {
+        "text": "국악",
+        "meta": "@Genre",
+        "alias": "genre",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  }
+]

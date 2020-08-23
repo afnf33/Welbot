@@ -1,0 +1,606 @@
+[
+  {
+    "id": "e38a0470-1336-4504-8a2c-c0327377036b",
+    "data": [
+      {
+        "text": "홈페이지 주소",
+        "meta": "@info_event",
+        "alias": "info_event",
+        "userDefined": false
+      },
+      {
+        "text": "는?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "c452ad43-a4a2-4341-a00f-65e55229699c",
+    "data": [
+      {
+        "text": "링크",
+        "meta": "@info_event",
+        "alias": "info_event",
+        "userDefined": false
+      },
+      {
+        "text": " 보내줘",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "67f14553-5a70-4745-8442-eb2979a7af7b",
+    "data": [
+      {
+        "text": "비용",
+        "meta": "@info_event",
+        "alias": "info_event",
+        "userDefined": false
+      },
+      {
+        "text": "은 ",
+        "userDefined": false
+      },
+      {
+        "text": "얼마",
+        "meta": "@info_event",
+        "alias": "info_event",
+        "userDefined": false
+      },
+      {
+        "text": "야?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "da66e1ba-3d64-487b-a5e7-ec84d74a16a0",
+    "data": [
+      {
+        "text": "요금",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "은 ",
+        "userDefined": false
+      },
+      {
+        "text": "얼마",
+        "meta": "@info_event",
+        "alias": "info_event",
+        "userDefined": false
+      },
+      {
+        "text": "야?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "912ae70f-f47a-416c-b1b1-92b2ddd8d3f8",
+    "data": [
+      {
+        "text": "얼마",
+        "meta": "@info_event",
+        "alias": "info_event",
+        "userDefined": false
+      },
+      {
+        "text": "야?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "8dc9002f-6d56-4028-8050-dc8a310876b8",
+    "data": [
+      {
+        "text": "행사이름",
+        "meta": "@info_event",
+        "alias": "info_event",
+        "userDefined": false
+      },
+      {
+        "text": "이",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " 뭐야?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "c40f2707-d1dd-4936-9a0c-ce2144c5ad1e",
+    "data": [
+      {
+        "text": "행사",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "장소",
+        "meta": "@info_event",
+        "alias": "info_event",
+        "userDefined": false
+      },
+      {
+        "text": "는?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "0e12067d-1baf-474e-8633-fa0ba239a014",
+    "data": [
+      {
+        "text": "어디서",
+        "meta": "@info_event",
+        "alias": "info_event",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "3b297a02-8f10-4c63-a914-b630b430ab6b",
+    "data": [
+      {
+        "text": "어디서",
+        "meta": "@info_event",
+        "alias": "info_event",
+        "userDefined": false
+      },
+      {
+        "text": " 해?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "5541f06c-41d3-4a5b-b2b8-7966efd0ba16",
+    "data": [
+      {
+        "text": "신청기간",
+        "meta": "@info_event",
+        "alias": "info_event",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "언제",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "야?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "effd9a9a-dd8f-4bf2-8f43-f0976a0619de",
+    "data": [
+      {
+        "text": "신청기간",
+        "meta": "@info_event",
+        "alias": "info_event",
+        "userDefined": false
+      },
+      {
+        "text": " 궁금해",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "1c3f59ae-3308-4930-b084-9b6071000aaf",
+    "data": [
+      {
+        "text": "신청기간",
+        "meta": "@info_event",
+        "alias": "info_event",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "cac26a0f-2fa9-4ae6-9caa-73b6896f5085",
+    "data": [
+      {
+        "text": "신청기간",
+        "meta": "@info_event",
+        "alias": "info_event",
+        "userDefined": false
+      },
+      {
+        "text": "은?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "5e4aad59-e49c-4b23-bb7d-4a325e1f0302",
+    "data": [
+      {
+        "text": "행사",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "내용",
+        "meta": "@info_event",
+        "alias": "info_event",
+        "userDefined": false
+      },
+      {
+        "text": "이",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " 뭐야?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "df8b6b91-026a-47fb-873f-c598aa97a177",
+    "data": [
+      {
+        "text": "무슨",
+        "meta": "@info_event",
+        "alias": "info_event",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "행사",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "야?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "f1b5d488-727f-4cdd-a85d-458d50271bf5",
+    "data": [
+      {
+        "text": "행사",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "내용",
+        "meta": "@info_event",
+        "alias": "info_event",
+        "userDefined": false
+      },
+      {
+        "text": " 궁금해",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "b213a2ec-b826-4d01-b328-13cb9534baa4",
+    "data": [
+      {
+        "text": "행사",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "내용",
+        "meta": "@info_event",
+        "alias": "info_event",
+        "userDefined": false
+      },
+      {
+        "text": "은?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "06842dbe-c66a-450f-ad46-dd6864e99eb7",
+    "data": [
+      {
+        "text": "행사",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "일정",
+        "meta": "@info_event",
+        "alias": "info_event",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "86caa1e7-5486-44ea-9df2-8f1ed864f99c",
+    "data": [
+      {
+        "text": "일정",
+        "meta": "@info_event",
+        "alias": "info_event",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "4455ec53-5144-44d2-8ef4-bcfbe70da8e3",
+    "data": [
+      {
+        "text": "언제",
+        "meta": "@info_event",
+        "alias": "info_event",
+        "userDefined": false
+      },
+      {
+        "text": " 해?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "75a6ae8d-b151-4329-8c47-57d1084fad39",
+    "data": [
+      {
+        "text": "행사",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " 기간",
+        "userDefined": false
+      },
+      {
+        "text": "이",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "언제",
+        "meta": "@info_event",
+        "alias": "info_event",
+        "userDefined": false
+      },
+      {
+        "text": "야?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "52850fca-bc05-4a7e-a9db-50e153d27943",
+    "data": [
+      {
+        "text": "행사",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "일정",
+        "meta": "@info_event",
+        "alias": "info_event",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "8697fb52-9e73-4ac1-bc25-e1e52908a400",
+    "data": [
+      {
+        "text": "일정",
+        "meta": "@info_event",
+        "alias": "info_event",
+        "userDefined": false
+      },
+      {
+        "text": "이",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "언제",
+        "meta": "@info_event",
+        "alias": "info_event",
+        "userDefined": false
+      },
+      {
+        "text": "야?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "6764731f-fc9a-48ac-9ec6-8965584611d8",
+    "data": [
+      {
+        "text": "행사",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "일정",
+        "meta": "@info_event",
+        "alias": "info_event",
+        "userDefined": false
+      },
+      {
+        "text": "이",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " 언제죠?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  }
+]

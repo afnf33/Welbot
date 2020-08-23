@@ -1,0 +1,101 @@
+{
+  "id": "dab62035-3310-4c82-8d3c-7e9107819983",
+  "parentId": "25bfda0b-939c-41bb-99be-1c279e400cf2",
+  "rootParentId": "25bfda0b-939c-41bb-99be-1c279e400cf2",
+  "name": "(lecture_type)onoff_lecture(lecture_type, onoff,) - custom",
+  "auto": true,
+  "contexts": [
+    "lecture_type",
+    "request_lecturelecture_type-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "decide_lectureinitlecture_all.request_lecturelecture_type-custom",
+      "affectedContexts": [
+        {
+          "name": "lecture_type",
+          "lifespan": 1
+        },
+        {
+          "name": "onoff",
+          "lifespan": 1
+        },
+        {
+          "name": "lecture_typeonoff_lecturelecture_typeonoff-custom-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "e5cd1412-659c-4abf-b87c-6a249ea016c9",
+          "name": "lecture_onoff",
+          "required": true,
+          "dataType": "@lecture_onoff",
+          "value": "$lecture_onoff",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "ko",
+              "value": "오프라인, 온라인을 결정해주세요"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e7e16916-0077-48c8-8ef3-711ca1750839",
+          "name": "question",
+          "required": false,
+          "dataType": "@question",
+          "value": "$question",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c1523f0d-349b-4731-9a9c-901b9d7c5425",
+          "name": "Lecture",
+          "required": false,
+          "dataType": "@Lecture",
+          "value": "$Lecture",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "speech": [
+            "$lecture_onoff 에 해당하는 강좌 정보는 다음과 같아요!! (follow)"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

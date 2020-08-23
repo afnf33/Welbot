@@ -1,0 +1,9 @@
+{
+  "id": "85cf2916-498d-40b1-87ab-597743cf51cc",
+  "name": "Lecture",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

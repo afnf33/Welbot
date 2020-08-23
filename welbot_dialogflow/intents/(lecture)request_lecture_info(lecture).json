@@ -1,0 +1,86 @@
+{
+  "id": "17512b8f-80a9-49c7-bf5f-9ce24be930a2",
+  "name": "(lecture)request_lecture_info(lecture)",
+  "auto": true,
+  "contexts": [
+    "lecture"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "decide_lectureinitlecture_all.request_lecturelecture_type-custom.lecture_typeonoff_lecturelecture_typeonoff-custom-custom",
+      "affectedContexts": [
+        {
+          "name": "lecture",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f8cbb68c-6494-43d2-884e-c5b84ea0df2c",
+          "name": "info_lecture",
+          "required": false,
+          "dataType": "@info_lecture",
+          "value": "$info_lecture",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "86c99e28-3790-4865-845a-3ea0921db2cf",
+          "name": "Lecture",
+          "required": false,
+          "dataType": "@Lecture",
+          "value": "$Lecture",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e8583725-f053-4d1b-a36b-f592dde9f329",
+          "name": "question",
+          "required": false,
+          "dataType": "@question",
+          "value": "$question",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "speech": [
+            "여기 이 부분은 솔직히 필요할지 모르겠네요... 이전 단계에서 db에 담긴 정보를 모두 뿌려 주는데, 거기서 추가 정보를 요구한다고 해서 더 줄 수 있는 것도 아니고... 흠.."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

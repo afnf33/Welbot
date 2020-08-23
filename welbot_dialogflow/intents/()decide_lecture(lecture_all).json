@@ -1,0 +1,101 @@
+{
+  "id": "9203895f-cc94-4a34-9986-4f2ab745ce95",
+  "name": "()decide_lecture(lecture_all)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "decide_lectureinitlecture_all",
+      "affectedContexts": [
+        {
+          "name": "lecture_all",
+          "lifespan": 1
+        },
+        {
+          "name": "decide_lectureinitlecture_all-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "343fb897-28d4-404c-a954-85644f758290",
+          "name": "Lecture",
+          "required": false,
+          "dataType": "@Lecture",
+          "value": "$Lecture",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d2c217e1-b59c-4da4-86e2-e9be03d4adcc",
+          "name": "info_lecture",
+          "required": false,
+          "dataType": "@info_lecture",
+          "value": "$info_lecture",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "803f4fab-97a5-48f8-9594-ac99583b9ed5",
+          "name": "infrastructure",
+          "required": false,
+          "dataType": "@infrastructure",
+          "value": "$infrastructure",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "20904600-533c-462a-bcb3-4d9fac6ca7b2",
+          "name": "question",
+          "required": false,
+          "dataType": "@question",
+          "value": "$question",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "speech": [
+            "$Lecture 을 선택하셨군요! 좋은 선택이에요! [예술, 체육, 신기술, 자기계발, 요리, 언어 등] 선택해주세요"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,69 @@
+{
+  "id": "dbe9c704-d746-4a18-aebe-6cb2047cff45",
+  "name": "()request_trail_length",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c983bbae-e1a2-4158-834b-30215cce19c0",
+          "name": "trailName",
+          "required": true,
+          "dataType": "@trailName",
+          "value": "$trailName",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "ko",
+              "value": "어떤 산책로의 정보가 필요하신가요?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b4432bad-1701-4e33-81c6-4c5ffcc74e01",
+          "name": "trailInfo",
+          "required": false,
+          "dataType": "@trailInfo",
+          "value": "$trailInfo",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "speech": [
+            "요청하신 산책로의 길이는 [___]km로 예상되는 소요시간은 [_____]시간입니다."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

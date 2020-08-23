@@ -1,0 +1,9 @@
+{
+  "id": "e92b8284-f44a-444c-b99d-a975cba2471b",
+  "name": "senior_center_info",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

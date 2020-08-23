@@ -1,0 +1,99 @@
+{
+  "id": "917f3635-878d-4c0d-bd75-32ad71eb29f7",
+  "name": "()decide_welfarecenter(welfare_center)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "decide_welfarecenterwelfare_center",
+      "affectedContexts": [
+        {
+          "name": "welfare_center",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "568421de-23cc-48e0-8c9f-15eec0f11f5b",
+          "name": "Welfare_center",
+          "required": false,
+          "dataType": "@Welfare_center",
+          "value": "$Welfare_center",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "781d5b4c-fa89-4269-ae78-b93a4332211f",
+          "name": "welfare_info",
+          "required": false,
+          "dataType": "@welfare_info",
+          "value": "$welfare_info",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "092c5ddb-797f-421d-a8e5-8dc95c0f3046",
+          "name": "question",
+          "required": false,
+          "dataType": "@question",
+          "value": "$question",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "af489e96-8b81-459a-bca7-edb5c6d86167",
+          "name": "city",
+          "required": true,
+          "dataType": "@city",
+          "value": "$city",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "ko",
+              "value": "어디 구인지 알려주세요"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

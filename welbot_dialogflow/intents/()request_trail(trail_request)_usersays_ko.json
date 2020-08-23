@@ -1,0 +1,362 @@
+[
+  {
+    "id": "c785eff1-dbba-4203-9cbf-7e0595182632",
+    "data": [
+      {
+        "text": "ㅇㅇ구",
+        "meta": "@city",
+        "alias": "city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "산책로",
+        "meta": "@trail",
+        "alias": "trail",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "정보",
+        "meta": "@trailInfo",
+        "alias": "trailInfo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "e7b5caab-c3a7-479c-80a4-ad11dda3e10f",
+    "data": [
+      {
+        "text": "ㅇㅇ구",
+        "meta": "@city",
+        "alias": "city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "산책로",
+        "meta": "@trail",
+        "alias": "trail",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "87244846-360e-493a-add8-cdcc94c6abce",
+    "data": [
+      {
+        "text": "ㅇㅇ구",
+        "meta": "@city",
+        "alias": "city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "산책로",
+        "meta": "@trail",
+        "alias": "trail",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "정보",
+        "meta": "@trailInfo",
+        "alias": "trailInfo",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "991da678-c7c8-458f-b0c9-7b0d91c0e08f",
+    "data": [
+      {
+        "text": "ㅇㅇ구",
+        "meta": "@city",
+        "alias": "city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "산책로",
+        "meta": "@trail",
+        "alias": "trail",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "9fd7b51c-52f4-43f9-b10a-b18e8b7771b5",
+    "data": [
+      {
+        "text": "산책로",
+        "meta": "@trail",
+        "alias": "trail",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "b9548d56-5001-4fb5-926c-aec4672f37bc",
+    "data": [
+      {
+        "text": "산책로",
+        "meta": "@trail",
+        "alias": "trail",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "9ceb2176-5061-4694-89b7-5130de668ab2",
+    "data": [
+      {
+        "text": "근처에 ",
+        "userDefined": false
+      },
+      {
+        "text": "걸을만한 길",
+        "meta": "@trail",
+        "alias": "trail",
+        "userDefined": true
+      },
+      {
+        "text": " 알려줘",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "7e14f28d-335a-4c55-af52-5c8ec68c5171",
+    "data": [
+      {
+        "text": "산보",
+        "meta": "@trail",
+        "alias": "trail",
+        "userDefined": false
+      },
+      {
+        "text": "가자",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "ee5ef67e-d212-4620-95ff-e5dac85808d9",
+    "data": [
+      {
+        "text": "산책",
+        "meta": "@trail",
+        "alias": "trail",
+        "userDefined": false
+      },
+      {
+        "text": "할래",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "35309bd0-45a7-4832-b80f-4c58f41e71af",
+    "data": [
+      {
+        "text": "산책",
+        "meta": "@trail",
+        "alias": "trail",
+        "userDefined": false
+      },
+      {
+        "text": "하기 좋은 곳 ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "b41206e8-1a01-4f16-8973-5bd46b39a2f5",
+    "data": [
+      {
+        "text": "외출",
+        "meta": "@trail",
+        "alias": "trail",
+        "userDefined": false
+      },
+      {
+        "text": "하고싶어",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "4ef11128-e355-4272-b977-618e6d1904f3",
+    "data": [
+      {
+        "text": "산책",
+        "meta": "@trail",
+        "alias": "trail",
+        "userDefined": false
+      },
+      {
+        "text": " 다녀오고 싶어",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "f419fc10-68bc-4f69-bc7c-a85376b831d5",
+    "data": [
+      {
+        "text": "걷기",
+        "meta": "@trail",
+        "alias": "trail",
+        "userDefined": false
+      },
+      {
+        "text": " 좋은 곳 ",
+        "userDefined": false
+      },
+      {
+        "text": "추천",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "해줘",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "875f000f-0092-4a46-ad57-579203676c52",
+    "data": [
+      {
+        "text": "산책로",
+        "meta": "@trail",
+        "alias": "trail",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "추천",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "해줘",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  }
+]

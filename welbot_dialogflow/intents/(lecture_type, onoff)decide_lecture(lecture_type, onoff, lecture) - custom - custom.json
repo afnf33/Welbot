@@ -1,0 +1,69 @@
+{
+  "id": "c8c3d253-557f-449b-9962-bc493e74022c",
+  "parentId": "dab62035-3310-4c82-8d3c-7e9107819983",
+  "rootParentId": "25bfda0b-939c-41bb-99be-1c279e400cf2",
+  "name": "(lecture_type, onoff)decide_lecture(lecture_type, onoff, lecture) - custom - custom",
+  "auto": true,
+  "contexts": [
+    "lecture_type",
+    "onoff",
+    "lecture_typeonoff_lecturelecture_typeonoff-custom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "decide_lectureinitlecture_all.request_lecturelecture_type-custom.lecture_typeonoff_lecturelecture_typeonoff-custom-custom",
+      "affectedContexts": [
+        {
+          "name": "lecture_type",
+          "lifespan": 1
+        },
+        {
+          "name": "lecture",
+          "lifespan": 1
+        },
+        {
+          "name": "on",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "00c59e87-1aeb-4bf9-b085-8c54d0e73bca",
+          "name": "number",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "speech": [
+            "$number에 대한 강의 정보는 다음과 같습니다!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

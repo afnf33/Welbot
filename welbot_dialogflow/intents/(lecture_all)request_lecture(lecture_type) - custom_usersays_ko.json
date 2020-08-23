@@ -1,0 +1,102 @@
+[
+  {
+    "id": "15f00b3b-c691-4ecd-9bb1-88a41c5faed7",
+    "data": [
+      {
+        "text": "예술",
+        "meta": "@Lecture_type",
+        "alias": "lecture_genre",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "수업",
+        "meta": "@Lecture",
+        "alias": "Lecture",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "5b6e1955-e01e-45ff-9252-6794a1eef06f",
+    "data": [
+      {
+        "text": "예술",
+        "meta": "@Lecture_type",
+        "alias": "lecture_genre",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "ad6099e6-236e-4eb8-ac8d-08bdb63aceb3",
+    "data": [
+      {
+        "text": "예술",
+        "meta": "@Lecture_type",
+        "alias": "lecture_genre",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "수업",
+        "meta": "@Lecture",
+        "alias": "Lecture",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "39a47fae-05ea-461b-8448-62f3191a95bd",
+    "data": [
+      {
+        "text": "예술",
+        "meta": "@Lecture_type",
+        "alias": "lecture_genre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  }
+]

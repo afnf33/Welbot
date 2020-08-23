@@ -1,0 +1,115 @@
+[
+  {
+    "id": "834fa54f-374b-4290-9d1d-eebb9404a4ec",
+    "data": [
+      {
+        "text": "온라인",
+        "meta": "@lecture_onoff",
+        "alias": "lecture_onoff",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "1fca5aaf-0dfe-4429-849b-8f7cfbbe7772",
+    "data": [
+      {
+        "text": "온라인",
+        "meta": "@lecture_onoff",
+        "alias": "lecture_onoff",
+        "userDefined": false
+      },
+      {
+        "text": " 들을래",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "6a9611c5-780d-4eea-9784-542f5452cbf1",
+    "data": [
+      {
+        "text": "오프라인",
+        "meta": "@lecture_onoff",
+        "alias": "lecture_onoff",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "a851d7a6-04d5-4b77-abec-9282a4bb1949",
+    "data": [
+      {
+        "text": "온라인",
+        "meta": "@lecture_onoff",
+        "alias": "lecture_onoff",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "수업",
+        "meta": "@Lecture",
+        "alias": "Lecture",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "c1b35c05-4d35-47f8-9351-024263f352bd",
+    "data": [
+      {
+        "text": "온라인",
+        "meta": "@lecture_onoff",
+        "alias": "lecture_onoff",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "수업",
+        "meta": "@Lecture",
+        "alias": "Lecture",
+        "userDefined": true
+      },
+      {
+        "text": " 들을래",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  }
+]

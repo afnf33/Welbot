@@ -1,0 +1,91 @@
+{
+  "id": "c2395c63-ccea-4003-b28e-0d82b553226c",
+  "name": "(lecture_type)onoff_lecture(lecture_type, onoff,)",
+  "auto": true,
+  "contexts": [
+    "lecture_type"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "decide_lectureinitlecture_all.request_lecturelecture_type-custom",
+      "affectedContexts": [
+        {
+          "name": "lecture_type",
+          "lifespan": 1
+        },
+        {
+          "name": "onoff",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "5821b910-f25b-496a-8996-7c196988d05a",
+          "name": "lecture_onoff",
+          "required": true,
+          "dataType": "@lecture_onoff",
+          "value": "$lecture_onoff",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "ko",
+              "value": "다시 입력해주세요."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "ac147b3f-65e9-4cfb-90e2-5137e0b8aa37",
+          "name": "question",
+          "required": false,
+          "dataType": "@question",
+          "value": "$question",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "298d2c58-a8fb-4af0-874b-60b60f9c4a7b",
+          "name": "Lecture",
+          "required": false,
+          "dataType": "@Lecture",
+          "value": "$Lecture",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

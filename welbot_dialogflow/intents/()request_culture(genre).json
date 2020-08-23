@@ -1,0 +1,76 @@
+{
+  "id": "7496c677-55f5-43c0-9f83-75cc87e76a3c",
+  "name": "()request_culture(genre)",
+  "auto": true,
+  "contexts": [
+    "culture_all"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "decide_cultureculture_all",
+      "affectedContexts": [
+        {
+          "name": "genre",
+          "lifespan": 1
+        },
+        {
+          "name": "culture_all",
+          "lifespan": 1
+        },
+        {
+          "name": "request_culturegenre-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "5613d2fc-732a-466b-b418-06ad69e9188a",
+          "name": "genre",
+          "required": false,
+          "dataType": "@Genre",
+          "value": "$genre",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "0fefbf3b-dd94-4d01-b3d7-4e9d0f8b3183",
+          "name": "question",
+          "required": false,
+          "dataType": "@question",
+          "value": "$question",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,121 @@
+[
+  {
+    "id": "dceef01b-d663-492c-bf58-e425686ba6fd",
+    "data": [
+      {
+        "text": "문화행사",
+        "meta": "@Culture",
+        "alias": "Culture",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "9a49b80a-0e60-46f7-90ba-a2dfe87b195f",
+    "data": [
+      {
+        "text": "문화행사",
+        "meta": "@Culture",
+        "alias": "Culture",
+        "userDefined": false
+      },
+      {
+        "text": " 볼래",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "02d0623c-f40a-4df9-9e87-8d4b0e0947b9",
+    "data": [
+      {
+        "text": "문화행사",
+        "meta": "@Culture",
+        "alias": "Culture",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "정보",
+        "meta": "@general",
+        "alias": "general",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "a73dc48a-ccb7-4570-baf7-e151fe91ab06",
+    "data": [
+      {
+        "text": "문화행사",
+        "meta": "@Culture",
+        "alias": "Culture",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "48e353e4-a202-4027-a3aa-71b588fb0cfd",
+    "data": [
+      {
+        "text": "문화행사",
+        "meta": "@Culture",
+        "alias": "Culture",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "정보",
+        "meta": "@general",
+        "alias": "general",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "알려줘",
+        "meta": "@question",
+        "alias": "question",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "ko",
+    "updated": 0
+  }
+]

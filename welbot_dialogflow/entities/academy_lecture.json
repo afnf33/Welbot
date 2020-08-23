@@ -1,0 +1,9 @@
+{
+  "id": "dbeac172-ca91-482c-8163-5de2f5f452c3",
+  "name": "academy_lecture",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}
