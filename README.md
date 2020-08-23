@@ -80,6 +80,6 @@ Django REST Framework를 사용하여 구성하였습니다.
 
 
 # Reference  
-구글 Dialogflow Docs https://cloud.google.com/dialogflow/docs?hl=ko
+구글 Dialogflow Docs https://cloud.google.com/dialogflow/docs?hl=ko  
 2019년 서울시 독거노인 현황 (성별/동별) 통계: https://data.seoul.go.kr/dataList/10178/S/2/datasetView.do  
 김기태, 최송식, 박미진, 박선희, 고수희, & 박현숙. (2011). 가족구조와 심리사회적 요인이 노인의 자살생각에 미치는 영향. 노인복지연구, 52, 205-228.   
